@@ -1,4 +1,4 @@
-Last Change: 2020/02/07 12:38:17.
+Last Change: 2020/02/07 12:58:41.
 
 auther: tsuyo-pon
 
@@ -13,8 +13,8 @@ zsh の設定についてあれこれ書いてあります．
 ## 設定ファイルの場所
 []({{{)
 - 設定ファイルはhome直下に置く
-- [.zprofile](../../.zprofile)
-- [.zshrc](../../.zshrc)
+- [.zprofile](../../conf/.zprofile)
+- [.zshrc](../../conf/.zshrc)
     ```
     source ~/.zsh_profile
     ```

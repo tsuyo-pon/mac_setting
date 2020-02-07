@@ -1,4 +1,4 @@
-Last Change: 2019/12/13 18:58:39.
+Last Change: 2020/02/07 12:56:35.
 
 auther: tsuyo-pon
 
@@ -12,12 +12,12 @@ bash の設定についてあれこれ書いてあります．
 ## 設定ファイルの場所
 []({{{)
 - 設定ファイル
-    - [.bash_profile](../../.bash_profile)
-    - [.bashrc](../../.bashrc)
+    - [.bash_profile](../../conf/.bash_profile)
+    - [.bashrc](../../conf/.bashrc)
 - 設定ファイルはhome直下に置く
     ```
-    cp ../../.bash_profile ~/
-    cp ../../.bashrc ~/
+    cp ../../conf/.bash_profile ~/
+    cp ../../conf/.bashrc ~/
     ```
 [](}}})
 

@@ -1,4 +1,4 @@
-Last Change: 2020/02/07 12:34:16.
+Last Change: 2020/02/07 12:51:00.
 
 auther: tsuyo-pon
 
@@ -16,9 +16,9 @@ vim の設定についてあれこれ書いてあります．
 []({{{)
 - 設定ファイルはhome直下に置く
     - プラグイン管理でvundle を使う場合(更新止まってます)
-        - [.vimrc]()
+        - [.vimrc](../../mode_vundle/.vimrc)
     - プラグイン管理でdein を使う場合
-        - [.vimrc]()
+        - [.vimrc](../../mode_dein/init.vim)
 [](}}})
 
 ## クリップボードとヤンクを連携させる
