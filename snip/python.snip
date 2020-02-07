@@ -1,0 +1,35 @@
+snippet     def
+abbr        def function(...): ...
+options     head
+	def ${1:#:name}(${2}):
+		"""${3:#:What is this?}
+		# {{{
+		argument
+		    type:, name:
+		return
+		    type:, name:
+		"""
+		# {{{
+		${0:pass}
+		# }}}
+		# }}}
+
+snippet     start
+abbr        def function(...): ...
+options     head
+	"""
+	============================================================================
+	Last Change: 2020/01/20 10:44:50.
+	
+	auther: tsuyo-pon
+	
+	the purpose:
+	${1:#What does this script do?}
+	
+	procedure:
+	
+	discussion:
+	
+	============================================================================
+	"""
+	

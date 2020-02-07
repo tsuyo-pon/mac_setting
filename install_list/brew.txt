@@ -1,0 +1,16 @@
+brew install vim
+brew install neovim
+brew install sox
+brew install git
+brew install tcl-tk
+brew install pyenv
+brew install zsh
+brew install zsh-completions
+brew install mecab
+brew install mecab-ipadic
+brew cask install r
+brew cask install rstudio
+brew cask install mactex-no-gui
+brew cask install google-chrome
+brew cask install iterm2
+brew cask install praat
