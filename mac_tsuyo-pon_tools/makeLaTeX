@@ -1,0 +1,21 @@
+# 指定された引数の数をチェックする
+if [ $# -ne 1 ]; then
+  echo "指定された引数は$#個です。" 1>&2
+  echo "実行するには1個の引数が必要です。" 1>&2
+  exit 1
+fi
+
+# コンパイルをする
+name="$1.tex"
+if [ -f ${name} ]
+then
+  platex "$1.tex"
+  dvipdfmx "$1"
+  platex "$1.tex"
+  dvipdfmx "$1"
+  platex "$1.tex"
+  dvipdfmx "$1"
+  open "$1.pdf"
+else
+  echo "$1.tex というファイルはありません．"
+fi
