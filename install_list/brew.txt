@@ -16,3 +16,5 @@ brew cask install iterm2
 brew cask install webex-meetings
 brew cask install skype
 brew cask install praat
+brew install asciiquarium
+brew install cmatrix
