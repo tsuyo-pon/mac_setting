@@ -10,9 +10,7 @@ name="$1.tex"
 if [ -f ${name} ]
 then
   platex "$1.tex"
-  dvipdfmx "$1"
   platex "$1.tex"
-  dvipdfmx "$1"
   platex "$1.tex"
   dvipdfmx "$1"
   open "$1.pdf"
