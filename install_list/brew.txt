@@ -8,6 +8,7 @@ brew install zsh
 brew install zsh-completions
 brew install mecab
 brew install mecab-ipadic
+brew install gh
 brew cask install r
 brew cask install rstudio
 brew cask install mactex-no-gui
