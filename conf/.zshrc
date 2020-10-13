@@ -15,4 +15,5 @@ export PATH=$PATH:$HOME/mac_tsuyo-pon_tools      # 自作コマンドにPATHを�
 export PYENV_ROOT="$HOME/.pyenv"                 # pyenvを使えるようにする
 export PATH="$PYENV_ROOT/bin:$PATH"              # pyenvを使えるようにする
 eval "$(pyenv init -)"                           # pyenvを使えるようにする
+eval "$(gh completion -s zsh)"                   # GitHub のコマンド補完設定
 fpath=(path/to/zsh-completions/src $fpath)
